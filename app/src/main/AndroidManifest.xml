@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:roundIcon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GajiKaryawan">
+
+        <!-- Halaman 1: Menu Utama (launcher) -->
+        <activity
+            android:name=".MainActivityRahmad"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Halaman 2: Info Gaji Karyawan -->
+        <activity android:name=".GajiActivityRahmad" android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Halaman 3: Petunjuk Penggunaan -->
+        <activity android:name=".PetunjukActivityRahmad" android:exported="false" />
+
+        <!-- Halaman 4: Tentang Aplikasi -->
+        <activity android:name=".TentangActivityRahmad" android:exported="false" />
+    </application>
+</manifest>

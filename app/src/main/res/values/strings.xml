@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gaji Karyawan</string>
+    <string name="judul_app">GAJI KARYAWAN</string>
+    <string name="menu_info_gaji">Info Gaji Karyawan</string>
+    <string name="menu_petunjuk">Petunjuk Penggunaan</string>
+    <string name="menu_tentang">Tentang Aplikasi</string>
+    <string name="menu_exit">Exit</string>
+    <!-- Teks footer di Menu Utama; bebas diedit -->
+    <string name="footer_web">Aplikasi Gaji Karyawan • Versi 1.0</string>
+
+    <string name="dialog_exit_judul">Konfirmasi</string>
+    <string name="dialog_exit_pesan">Apakah Anda yakin ingin keluar dari aplikasi?</string>
+    <string name="ya">YA</string>
+    <string name="tidak">TIDAK</string>
+
+    <string name="hint_nik">Nomor Induk Karyawan</string>
+    <string name="hint_nama">Nama Karyawan</string>
+    <string name="hint_gaji_pokok">Gaji Pokok (Rp)</string>
+    <string name="hint_tunjangan_jabatan">Tunjangan Jabatan (Rp)</string>
+    <string name="hint_hari_kerja">Jumlah Hari Kerja</string>
+    <string name="btn_hitung">HITUNG</string>
+    <string name="btn_reset">RESET</string>
+    <string name="btn_kembali">KEMBALI</string>
+    <string name="judul_hasil">Hasil Perhitungan</string>
+
+    <string name="petunjuk_judul">PETUNJUK PENGGUNAAN</string>
+    <string name="petunjuk_isi">1. Buka aplikasi Gaji Karyawan.\n\n2. Pilih menu Info Gaji Karyawan.\n\n3. Masukkan Nomor Induk Karyawan dan Nama Karyawan.\n\n4. Masukkan Gaji Pokok dan Tunjangan Jabatan.\n\n5. Masukkan Jumlah Hari Kerja.\n\n6. Tekan tombol HITUNG untuk melihat hasil perhitungan.\n\n7. Tekan RESET jika ingin menghitung gaji karyawan lainnya.</string>
+
+    <string name="tentang_judul">TENTANG APLIKASI</string>
+    <string name="tentang_nama">Gaji Karyawan</string>
+    <string name="tentang_versi">Versi 1.0</string>
+    <string name="tentang_deskripsi">Aplikasi sederhana untuk menghitung gaji karyawan secara otomatis berdasarkan data dan ketentuan perhitungan yang telah ditentukan.</string>
+    <string name="tentang_pengembang">Pengembang: Mahasiswa</string>
+    <!-- Teks umum; silakan edit sesuai mata kuliah / institusi Anda -->
+    <string name="tentang_institusi">Dibuat sebagai tugas kuliah pengembangan aplikasi Android.</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bg_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Header: logo + judul -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/navy"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="24dp">
+                <ImageView
+                    android:layout_width="72dp"
+                    android:layout_height="72dp"
+                    android:src="@drawable/ic_launcher"
+                    android:contentDescription="@string/app_name" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/judul_app"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.08" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Baris 1 menu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardInfoGaji"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:gravity="center" android:orientation="vertical" android:padding="12dp">
+                    <ImageView android:layout_width="72dp" android:layout_height="72dp"
+                        android:background="@drawable/bg_icon_circle" android:padding="12dp"
+                        android:src="@drawable/ic_info" android:contentDescription="@string/menu_info_gaji" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" android:gravity="center"
+                        android:text="@string/menu_info_gaji" android:textColor="@color/navy"
+                        android:textStyle="bold" android:textSize="14sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardPetunjuk"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:gravity="center" android:orientation="vertical" android:padding="12dp">
+                    <ImageView android:layout_width="72dp" android:layout_height="72dp"
+                        android:background="@drawable/bg_icon_circle" android:padding="12dp"
+                        android:src="@drawable/ic_petunjuk" android:contentDescription="@string/menu_petunjuk" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" android:gravity="center"
+                        android:text="@string/menu_petunjuk" android:textColor="@color/navy"
+                        android:textStyle="bold" android:textSize="14sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Baris 2 menu -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardTentang"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:gravity="center" android:orientation="vertical" android:padding="12dp">
+                    <ImageView android:layout_width="72dp" android:layout_height="72dp"
+                        android:background="@drawable/bg_icon_circle" android:padding="12dp"
+                        android:src="@drawable/ic_tentang" android:contentDescription="@string/menu_tentang" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" android:gravity="center"
+                        android:text="@string/menu_tentang" android:textColor="@color/navy"
+                        android:textStyle="bold" android:textSize="14sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardExit"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="3dp">
+                <LinearLayout
+                    android:layout_width="match_parent" android:layout_height="match_parent"
+                    android:gravity="center" android:orientation="vertical" android:padding="12dp">
+                    <ImageView android:layout_width="72dp" android:layout_height="72dp"
+                        android:background="@drawable/bg_icon_circle" android:padding="12dp"
+                        android:src="@drawable/ic_exit" android:contentDescription="@string/menu_exit" />
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" android:gravity="center"
+                        android:text="@string/menu_exit" android:textColor="@color/navy"
+                        android:textStyle="bold" android:textSize="14sp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+        <!-- Footer (sesuai sketsa soal) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/bg_hasil_row"
+            android:gravity="center"
+            android:padding="14dp"
+            android:text="@string/footer_web"
+            android:textColor="@color/navy" />
+    </LinearLayout>
+</ScrollView>
